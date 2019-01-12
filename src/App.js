@@ -3,11 +3,10 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./components/Home";
 
-// import Contact from "./components/Contact";
-// import Error from "./components/Error";
 import Navigation from "./components/Navigation";
 import Youtube from "./components/Youtube";
 import Traveler from "./components/Traveler";
+
 
 
 
@@ -20,8 +19,7 @@ class App extends Component {
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/youtube" component={Youtube} />
-            <Route path="/traveler" component={Traveler} />  
-            <Route component={Error} />       
+            <Route path="/traveler" component={Traveler} />        
           </Switch> 
         </div>
       </BrowserRouter>

@@ -1,1 +1,1 @@
-export const YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"
+export const YOUTUBE_API_KEY = "YOUTUBE_API_KEY"
