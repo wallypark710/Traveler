@@ -1,0 +1,9 @@
+.navbar {
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.navbar img {
+  height: 40px;
+  width: 50px;
+}
